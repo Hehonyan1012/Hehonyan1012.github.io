@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="hsl(268,22%,17%)"/>
+      <stop offset="55%" stop-color="hsl(268,20%,10%)"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <circle cx="998.4000000000001" cy="160" r="272" fill="hsl(268,30%,24%)" opacity="0.22" filter="url(#soft)"/>
+  
+        <path d="M 102.4 400 C 384 224.00000000000003, 537.6 576, 704 400 S 998.4000000000001 240, 1177.6000000000001 400" fill="none" stroke="hsl(268,26%,70%)" stroke-width="2"/>
+        <path d="M 102.4 456 C 384 280, 537.6 632, 704 456 S 998.4000000000001 296, 1177.6000000000001 456" fill="none" stroke="hsl(268,26%,60%)" stroke-width="1.4"/>
+        <circle cx="704" cy="400" r="5" fill="hsl(268,26%,75%)"/>
+  <rect width="1280" height="800" fill="url(#noise)" opacity="0.05"/>
+  <defs><filter id="nf"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3"/></filter>
+  <pattern id="noise" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="120" filter="url(#nf)"/></pattern></defs>
+</svg>

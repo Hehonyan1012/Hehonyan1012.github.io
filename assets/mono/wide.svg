@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="hsl(210,22%,17%)"/>
+      <stop offset="55%" stop-color="hsl(210,20%,10%)"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1248" cy="180" r="306" fill="hsl(210,30%,24%)" opacity="0.22" filter="url(#soft)"/>
+  
+        <text x="224.00000000000003" y="414" font-family="Georgia,serif" font-size="306" font-weight="700" fill="hsl(210,26%,58%)">M</text>
+        <text x="608" y="648" font-family="Georgia,serif" font-size="306" font-weight="700" fill="none" stroke="hsl(210,26%,70%)" stroke-width="1.4">04</text>
+        <line x1="224.00000000000003" y1="738" x2="1376" y2="738" stroke="hsl(210,26%,62%)" stroke-width="1.2"/>
+  
+</svg>

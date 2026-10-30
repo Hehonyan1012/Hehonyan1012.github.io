@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="hsl(158,22%,17%)"/>
+      <stop offset="55%" stop-color="hsl(158,20%,10%)"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1248" cy="180" r="306" fill="hsl(158,30%,24%)" opacity="0.22" filter="url(#soft)"/>
+  
+        <rect x="288" y="619.56" width="56.00000000000001" height="100.44" rx="3" fill="hsl(158,26%,30%)"/><rect x="408" y="552.6" width="56.00000000000001" height="167.4" rx="3" fill="hsl(158,26%,35%)"/><rect x="527.9999999999999" y="597.24" width="56.00000000000001" height="122.76" rx="3" fill="hsl(158,26%,40%)"/><rect x="648" y="485.64" width="56.00000000000001" height="234.35999999999999" rx="3" fill="hsl(158,26%,45%)"/><rect x="768" y="552.6" width="56.00000000000001" height="167.4" rx="3" fill="hsl(158,26%,50%)"/><rect x="887.9999999999999" y="441" width="56.00000000000001" height="279" rx="3" fill="hsl(158,26%,55%)"/><rect x="1007.9999999999998" y="519.12" width="56.00000000000001" height="200.88" rx="3" fill="hsl(158,26%,60%)"/><rect x="1128" y="396.36" width="56.00000000000001" height="323.64" rx="3" fill="hsl(158,26%,65%)"/><rect x="1248" y="474.48" width="56.00000000000001" height="245.52" rx="3" fill="hsl(158,26%,70%)"/>
+        <line x1="224.00000000000003" y1="720" x2="1408" y2="720" stroke="hsl(158,26%,60%)" stroke-width="1.2"/>
+        <circle cx="1216" cy="324" r="4" fill="hsl(158,26%,75%)"/>
+  
+</svg>

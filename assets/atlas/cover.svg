@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="hsl(32,22%,17%)"/>
+      <stop offset="55%" stop-color="hsl(32,20%,10%)"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="1280" height="800" fill="url(#bg)"/>
+  <circle cx="998.4000000000001" cy="160" r="272" fill="hsl(32,30%,24%)" opacity="0.22" filter="url(#soft)"/>
+  
+        <g stroke="hsl(32,26%,62%)" stroke-width="1">
+          <line x1="230.39999999999998" y1="112.00000000000001" x2="230.39999999999998" y2="688"/>
+          <line x1="640"  y1="112.00000000000001" x2="640"  y2="688"/>
+          <line x1="1049.6" y1="112.00000000000001" x2="1049.6" y2="688"/>
+        </g>
+        <rect x="281.6" y="160" width="307.2" height="272" fill="hsl(32,26%,52%)"/>
+        <rect x="691.2" y="416" width="307.2" height="224.00000000000003" fill="hsl(32,26%,60%)"/>
+        <line x1="710.4000000000001" y1="192" x2="972.8" y2="192" stroke="rgba(255,255,255,1)" stroke-width="1.1"/><line x1="710.4000000000001" y1="219.20000000000002" x2="972.8" y2="219.20000000000002" stroke="rgba(255,255,255,1)" stroke-width="1.1"/><line x1="710.4000000000001" y1="246.4" x2="972.8" y2="246.4" stroke="rgba(255,255,255,1)" stroke-width="1.1"/><line x1="710.4000000000001" y1="273.59999999999997" x2="972.8" y2="273.59999999999997" stroke="rgba(255,255,255,1)" stroke-width="1.1"/><line x1="710.4000000000001" y1="300.8" x2="972.8" y2="300.8" stroke="rgba(255,255,255,1)" stroke-width="1.1"/><line x1="710.4000000000001" y1="328" x2="972.8" y2="328" stroke="rgba(255,255,255,1)" stroke-width="1.1"/><line x1="710.4000000000001" y1="355.2" x2="972.8" y2="355.2" stroke="rgba(255,255,255,1)" stroke-width="1.1"/>
+  <rect width="1280" height="800" fill="url(#noise)" opacity="0.05"/>
+  <defs><filter id="nf"><feTurbulence type="fractalNoise" baseFrequency="0.8" numOctaves="3"/></filter>
+  <pattern id="noise" width="120" height="120" patternUnits="userSpaceOnUse"><rect width="120" height="120" filter="url(#nf)"/></pattern></defs>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="hsl(128,22%,17%)"/>
+      <stop offset="55%" stop-color="hsl(128,20%,10%)"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1248" cy="180" r="306" fill="hsl(128,30%,24%)" opacity="0.22" filter="url(#soft)"/>
+  
+        <path d="M 416 738 L 416 378 A 384 384 0 0 1 1184 378 L 1184 738" fill="none" stroke="hsl(128,26%,62%)" stroke-width="1.8"/>
+        <path d="M 576 738 L 576 414 A 224.00000000000003 224.00000000000003 0 0 1 1024 414 L 1024 738" fill="hsl(128,26%,40%)"/>
+        <line x1="416" y1="738" x2="1184" y2="738" stroke="hsl(128,26%,62%)" stroke-width="1.2"/>
+  
+</svg>

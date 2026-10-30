@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="何鸿延视觉设计作品集，涵盖 UI/UX、运营设计、商业活动与品牌 VI 设计。" />
+  <title>何鸿延 | 视觉设计作品集</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css?v=v1-25-23">
+</head>
+<body>
+  <div class="bg" aria-hidden="true"></div>
+  <div id="glow" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="site-logo" href="#top"><span class="logo-word" data-content="hero.name">何鸿延</span></a>
+    <nav class="nav" aria-label="主导航">
+      <a href="#top" data-content="nav.home">首页</a>
+      <a href="#about" data-content="nav.about">关于</a>
+      <a href="#work" data-content="nav.work">作品</a>
+      <a href="#sphere" data-content="nav.sphere">切片</a>
+      <a href="#contact" data-content="nav.contact">联系</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="切换主题"></button>
+  </header>
+
+  <button class="back-to-top" type="button" aria-label="回到顶部">&uarr;</button>
+
+  <main id="top" class="wrap">
+    <section class="hero reveal">
+      <div class="hero-copy">
+        <p class="pill" data-content="hero.pill">Visual Designer Portfolio / 2026</p>
+        <h1><span class="gradient" data-content="hero.name">何鸿延</span></h1>
+        <div class="intro">
+          <p class="intro-line">
+            <span class="intro-code">HONYAN</span>
+            <i></i>
+            <span data-content="hero.tagline1">以设计驱动品牌生长</span>
+            <i></i>
+            <span data-content="hero.tagline2">让每个像素都有存在的意义</span>
+          </p>
+        </div>
+        <div class="hero-keywords" data-list="hero.keywords"></div>
+        <dl class="profile-strip" data-list-profile="hero.profile"></dl>
+        <div class="actions">
+          <a class="btn" href="#work" data-content="hero.primaryCta">查看作品</a>
+          <a class="btn" href="#contact" data-content="hero.secondaryCta">联系我</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="sphere" class="sphere-section reveal">
+      <div class="sphere-head">
+        <div>
+          <p class="label" data-content="sphere.label">Visual Archive</p>
+          <h2 class="title" data-content="sphere.title">视觉切片</h2>
+        </div>
+        <p class="muted" data-content="sphere.desc">从完整项目中抽离出的视觉片段，持续旋转、暂停与重新观看。</p>
+      </div>
+      <div class="sphere-stage">
+        <div class="sphere-track" id="sphereTrack"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about reveal">
+      <div>
+        <p class="label" data-content="about.label">About</p>
+        <h2 class="title" data-content="about.title">让想法落地</h2>
+      </div>
+      <p class="muted" data-content="about.body">5 年视觉设计经验，专注 UI/UX、运营视觉、商业活动与品牌 VI。能够从需求拆解、视觉方向、方案推进一路走到落地交付，并持续优化日常设计流程。</p>
+    </section>
+
+    <section id="longform" class="longform-section reveal">
+      <div class="longform-head">
+        <div>
+          <p class="label" data-content="longform.label">Operational Longform</p>
+          <h2 class="title" data-content="longform.title">运营长图</h2>
+        </div>
+        <p class="muted" data-content="longform.desc">以纵向阅读节奏整合政策信息、活动节点与品牌内容，从首屏主题到信息拆解、行动引导，形成适合移动端传播的完整运营长图。</p>
+      </div>
+      <div class="longform-stage">
+        <div class="longform-track" id="longformTrack"></div>
+      </div>
+    </section>
+
+    <section class="tools-section reveal">
+      <div class="tools-head">
+        <h2 class="tools-title" data-content="tools.title">从概念到交付</h2>
+        <p class="tools-note" data-content="tools.note">策略判断、视觉探索、界面构建与落地交付，组成一套可持续复用的设计流程。</p>
+      </div>
+      <div class="tools-grid" data-list-tools="tools.items"></div>
+    </section>
+
+    <section id="work" class="works-section reveal">
+      <div class="work-wall">
+        <div class="works-intro">
+          <div>
+            <p class="label" data-content="works.label">Selected Works</p>
+            <h2 class="works-title" data-content="works.title">作品目录</h2>
+          </div>
+          <p class="works-lead" data-content="works.lead">依据 PDF 作品集目录整理为四个章节：UI/UX 设计、运营设计、商业活动设计与品牌 VI 设计。</p>
+        </div>
+        <div class="works-catalog" id="workGroups"></div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact reveal">
+      <div class="contact-box">
+        <p class="label" data-content="contact.label">Contact</p>
+        <h2 class="title" data-content="contact.title">感谢观看</h2>
+        <p class="muted" data-content="contact.body">欢迎查看作品，或聊聊项目合作与设计方向。</p>
+        <div class="contact-links" data-list-contact="contact.links"></div>
+        <div class="contact-actions"><a class="btn" href="#top" data-content="contact.backTop">回到顶部</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span data-content="footer.copyright">&copy; 2026 何鸿延</span>
+    <span data-content="footer.tagline">Portfolio — UI/UX · Operation · Campaign · Brand</span>
+  </footer>
+
+  <div class="project-detail" id="projectDetail" aria-hidden="true">
+    <button id="pdClose" class="pd-close" type="button" aria-label="关闭项目详情">&times;</button>
+    <div class="pd-inner">
+      <div class="pd-header">
+        <div class="pd-meta">
+          <div class="pd-tags" id="pdTags"></div>
+          <h2 class="pd-title" id="pdTitle"></h2>
+          <p class="pd-client" id="pdClient"></p>
+          <p class="pd-desc" id="pdDesc"></p>
+        </div>
+        <div class="pd-nav">
+          <button class="pd-prev" type="button" aria-label="上一个项目">&#8592;</button>
+          <button class="pd-next" type="button" aria-label="下一个项目">&#8594;</button>
+        </div>
+      </div>
+      <div class="pd-gallery">
+        <div class="pd-main" id="pdMain"></div>
+        <div class="pd-counter" id="pdCounter"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slice-lightbox" id="sliceLightbox" aria-hidden="true">
+    <button class="slice-lightbox-close" id="sliceLightboxClose" type="button" aria-label="关闭大图">&times;</button>
+    <button class="slice-lightbox-nav prev" id="sliceLightboxPrev" type="button" aria-label="上一张">&#8592;</button>
+    <figure class="slice-lightbox-figure">
+      <img id="sliceLightboxImage" src="" alt="" />
+      <figcaption id="sliceLightboxCaption"></figcaption>
+    </figure>
+    <button class="slice-lightbox-nav next" id="sliceLightboxNext" type="button" aria-label="下一张">&#8594;</button>
+  </div>
+
+  <div class="category-viewer" id="categoryViewer" aria-hidden="true">
+    <div class="cv-shell">
+      <header class="cv-header">
+        <div class="cv-heading">
+          <p class="cv-kicker" id="cvKicker"></p>
+          <h2 id="cvTitle"></h2>
+          <p id="cvDesc"></p>
+        </div>
+        <button class="cv-close" id="cvClose" type="button" aria-label="关闭作品演示">&times;</button>
+      </header>
+      <div class="cv-stage" id="cvStage">
+        <button class="cv-arrow prev" id="cvPrev" type="button" aria-label="上一页">&#8592;</button>
+        <figure class="cv-slide">
+          <div class="cv-media" id="cvMedia"></div>
+          <figcaption>
+            <span id="cvPageTitle"></span>
+            <span id="cvPageMeta"></span>
+          </figcaption>
+        </figure>
+        <button class="cv-arrow next" id="cvNext" type="button" aria-label="下一页">&#8594;</button>
+      </div>
+      <footer class="cv-footer">
+        <span class="cv-counter" id="cvCounter">01 / 05</span>
+        <span class="cv-desc" id="cvPageDesc"></span>
+      </footer>
+    </div>
+  </div>
+
+  <div class="longform-viewer" id="longformViewer" aria-hidden="true">
+    <button class="lf-viewer-close" id="longformClose" type="button" aria-label="关闭长图">&times;</button>
+    <header class="lf-viewer-head">
+      <h2 id="longformTitle"></h2>
+      <p id="longformMeta"></p>
+    </header>
+    <div class="lf-viewer-scroll" id="longformScroll">
+      <img id="longformImage" src="" alt="" />
+    </div>
+  </div>
+
+  <script src="site-content.js?v=v1-25-23"></script>
+  <script src="site-data.js?v=v1-25-23"></script>
+  <script src="site-pages.js?v=1793392047517"></script>
+  <script src="script.js?v=v1-25-23"></script>
+</body>
+</html>

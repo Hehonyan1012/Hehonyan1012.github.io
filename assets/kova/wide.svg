@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <radialGradient id="bg" cx="38%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="hsl(188,22%,17%)"/>
+      <stop offset="55%" stop-color="hsl(188,20%,10%)"/>
+      <stop offset="100%" stop-color="#0a0b0d"/>
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="26"/></filter>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1248" cy="180" r="306" fill="hsl(188,30%,24%)" opacity="0.22" filter="url(#soft)"/>
+  
+        <rect x="320" y="144" width="800" height="468" rx="14" fill="hsl(188,26%,26%)" transform="rotate(-6 800 450)"/>
+        <rect x="384" y="180" width="800" height="468" rx="14" fill="hsl(188,26%,34%)" transform="rotate(3 800 450)"/>
+        <rect x="448.00000000000006" y="216" width="736" height="504.00000000000006" rx="14" fill="hsl(188,26%,46%)"/>
+        <line x1="544" y1="360" x2="1024" y2="360" stroke="rgba(255,255,255,1)" stroke-width="2"/>
+        <line x1="544" y1="423" x2="927.9999999999999" y2="423" stroke="rgba(255,255,255,1)" stroke-width="1.4"/>
+        <rect x="544" y="504.00000000000006" width="192" height="54" rx="6" fill="rgba(255,255,255,1)"/>
+  
+</svg>
